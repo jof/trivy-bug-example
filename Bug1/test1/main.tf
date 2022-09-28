@@ -1,4 +1,4 @@
 
 module "cores" {
-  source      = "../modules/corel"
+  source      = "../modules/core"
 }
