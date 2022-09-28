@@ -1,0 +1,4 @@
+
+module "cores" {
+  source      = "./modules"
+}
