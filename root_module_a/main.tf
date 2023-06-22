@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "test" {
-  bucket        = "one-buggy-boi"
+  bucket = "one-buggy-boi"
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
@@ -24,3 +24,8 @@ resource "aws_s3_bucket_public_access_block" "test" {
   restrict_public_buckets = true
 }
 
+
+module "eks" {
+  source  = "terraform-aws-modules/eks/aws"
+  version = "19.15.2"
+}
