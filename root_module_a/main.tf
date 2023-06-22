@@ -27,5 +27,5 @@ resource "aws_s3_bucket_public_access_block" "test" {
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "19.15.2"
+  version = "18.0.6"
 }
