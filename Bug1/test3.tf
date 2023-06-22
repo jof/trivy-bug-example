@@ -1,4 +1,0 @@
-
-module "asd" {
-  source   = "./modules"
-}
